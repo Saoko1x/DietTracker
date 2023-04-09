@@ -1,0 +1,24 @@
+import React from "react";
+import { arrowUp } from "../assets";
+
+const GetStarted = () => (
+  <div className='flex justify-center items-center w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer'>
+    <div className='flex justify-center items-center flex-col bg-black w-[100%] h-[100%] rounded-full'>
+      <div className='flex justify-center items-start flex-row'>
+        <p className='font-poppins font-medium text-[18px] leading-[23px] mr-2'>
+          <span className='text-gradient'>Comienza</span>
+        </p>
+        <img
+          src={arrowUp}
+          alt='arrowup'
+          className='w-[23px] h-[23px] object-contain'
+        />
+      </div>
+      <p className='font-poppins font-medium text-[18px] leading-[23px]'>
+        <span className='text-gradient'>Ahora</span>
+      </p>
+    </div>
+  </div>
+);
+
+export default GetStarted;
