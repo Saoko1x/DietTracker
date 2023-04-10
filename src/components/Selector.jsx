@@ -3,7 +3,7 @@ import { eating } from "../assets";
 const Selector = () => (
   <section
     id='product'
-    className='flex md:flex-row flex-col-reverse sm:px-16 px-6'
+    className='flex md:flex-row flex-col-reverse sm:px-16 px-6 pt-7'
   >
     <div className='flex-1 flex justify-center items-center md:mr-10 mr-0 md:mt-0 mt-10 relative'>
       <img

@@ -3,7 +3,7 @@ import { diet, blockchain, groceries } from "../assets";
 import GetStarted from "./GetStarted";
 
 const Hero = () => (
-  <section id='home' className={`flex md:flex-row flex-col sm:py-16 py-6`}>
+  <section id='home' className={`flex md:flex-row flex-col sm:py-8 py-6`}>
     <div
       className={`flex-1 flex justify-center items-start flex-col xl:px-0 sm:px-16 px-6`}
     >

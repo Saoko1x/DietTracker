@@ -20,7 +20,7 @@ const Clients = () => (
         </p>
       </div>
     </div>
-    <div className='flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]'>
+    <div className='flex flex-wrap justify-start sm:justify-center w-full feedback-container relative z-[1]'>
       {feedback.map((card) => (
         <FeedbackCard key={card.id} {...card} />
       ))}

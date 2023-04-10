@@ -101,64 +101,68 @@ export const stats = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Links",
     links: [
       {
-        name: "Content",
+        name: "Inicio",
         link: "https://www.hoobank.com/content/",
       },
       {
-        name: "How it Works",
+        name: "Características",
         link: "https://www.hoobank.com/how-it-works/",
       },
       {
-        name: "Create",
+        name: "¿Por qué nosotros?",
         link: "https://www.hoobank.com/create/",
       },
       {
-        name: "Explore",
+        name: "Clientes",
         link: "https://www.hoobank.com/explore/",
       },
-      {
-        name: "Terms & Services",
+      /*{
+        name: "Terminos y Condiciones",
         link: "https://www.hoobank.com/terms-and-services/",
-      },
+      },*/
     ],
   },
   {
-    title: "Community",
+    title: "Comunidad",
     links: [
       {
-        name: "Help Center",
+        name: "Centro de ayuda",
         link: "https://www.hoobank.com/help-center/",
       },
       {
-        name: "Partners",
+        name: "Socios",
         link: "https://www.hoobank.com/partners/",
       },
       {
-        name: "Suggestions",
+        name: "Sugerencias",
         link: "https://www.hoobank.com/suggestions/",
       },
-      {
+      /*{
         name: "Blog",
         link: "https://www.hoobank.com/blog/",
       },
       {
         name: "Newsletters",
         link: "https://www.hoobank.com/newsletters/",
-      },
+      },*/
     ],
   },
   {
-    title: "Partner",
+    title: "Asociados",
     links: [
       {
-        name: "Our Partner",
+        name: "SaludDigna",
         link: "https://www.hoobank.com/our-partner/",
       },
       {
-        name: "Become a Partner",
+        name: "TheZen",
+        link: "https://www.hoobank.com/become-a-partner/",
+      },
+      {
+        name: "Taglify",
         link: "https://www.hoobank.com/become-a-partner/",
       },
     ],
