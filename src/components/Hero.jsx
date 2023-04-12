@@ -1,6 +1,7 @@
 import React from "react";
 import { diet, blockchain, groceries } from "../assets";
 import GetStarted from "./GetStarted";
+import Stats from "./Stats";
 
 const Hero = () => (
   <section id='home' className={`flex md:flex-row flex-col sm:py-8 py-6`}>
@@ -45,8 +46,6 @@ const Hero = () => (
     <div className='sm:hidden flex justify-center items-center p-9'>
       <GetStarted />
     </div>
-
-    <div></div>
   </section>
 );
 

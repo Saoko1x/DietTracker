@@ -155,15 +155,15 @@ export const footerLinks = [
     links: [
       {
         name: "SaludDigna",
-        link: "https://www.hoobank.com/our-partner/",
+        link: "https://www.salud-digna.org/",
       },
       {
         name: "TheZen",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "https://the-zen.vercel.app/",
       },
       {
         name: "Taglify",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "https://taglify.org/",
       },
     ],
   },
