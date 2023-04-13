@@ -1,5 +1,4 @@
 import {
-  apples,
   spoon,
   calendar,
   robot,
@@ -9,6 +8,9 @@ import {
   saluddigna,
   thezen,
   taglify,
+  instagram,
+  facebook,
+  twitter,
 } from "../assets";
 
 export const navLinks = [
@@ -105,23 +107,23 @@ export const footerLinks = [
     links: [
       {
         name: "Inicio",
-        link: "https://www.hoobank.com/content/",
+        link: "#home",
       },
       {
         name: "Características",
-        link: "https://www.hoobank.com/how-it-works/",
+        link: "#features",
       },
       {
         name: "¿Por qué nosotros?",
-        link: "https://www.hoobank.com/create/",
+        link: "#selector",
       },
       {
         name: "Clientes",
-        link: "https://www.hoobank.com/explore/",
+        link: "#clients",
       },
       /*{
         name: "Terminos y Condiciones",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: "",
       },*/
     ],
   },
@@ -130,23 +132,23 @@ export const footerLinks = [
     links: [
       {
         name: "Centro de ayuda",
-        link: "https://www.hoobank.com/help-center/",
+        link: "#",
       },
       {
         name: "Socios",
-        link: "https://www.hoobank.com/partners/",
+        link: "#",
       },
       {
         name: "Sugerencias",
-        link: "https://www.hoobank.com/suggestions/",
+        link: "#",
       },
       /*{
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        link: "",
       },
       {
         name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        link: "",
       },*/
     ],
   },
@@ -172,24 +174,24 @@ export const footerLinks = [
 export const socialMedia = [
   {
     id: "social-media-1",
-    icon: apples,
+    icon: instagram,
     link: "https://www.instagram.com/",
   },
   {
     id: "social-media-2",
-    icon: apples,
+    icon: facebook,
     link: "https://www.facebook.com/",
   },
   {
     id: "social-media-3",
-    icon: apples,
+    icon: twitter,
     link: "https://www.twitter.com/",
   },
-  {
-    id: "social-media-4",
-    icon: apples,
-    link: "https://www.linkedin.com/",
-  },
+  // {
+  //   id: "social-media-4",
+  //   icon: linkedin,
+  //   link: "https://www.linkedin.com/",
+  // },
 ];
 
 export const clients = [

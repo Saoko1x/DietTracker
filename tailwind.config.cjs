@@ -16,5 +16,8 @@ export default {
     lg: "1200px",
     xl: "1700px",
   },
-  plugins: [],
+  plugins: [
+    // ...
+    require("@tailwindcss/forms"),
+  ],
 };

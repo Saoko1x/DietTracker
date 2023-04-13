@@ -1,8 +1,7 @@
-import apples from "./appleS.png";
-import blacklogo from "./blacklogo.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import dietlogo from "./dietlogo.png";
+import dietlogoblack from "./dietlogoblack.png";
 import diet from "./diet.svg";
 import blockchain from "./blockchain.svg";
 import arrowUp from "./arrow-up.svg";
@@ -18,13 +17,15 @@ import quotes from "./quotes.svg";
 import saluddigna from "./saluddigna.png";
 import thezen from "./thezen.png";
 import taglify from "./taglify.png";
+import instagram from "./instagram.svg";
+import facebook from "./facebook.svg";
+import twitter from "./twitter.svg";
 
 export {
-  apples,
-  blacklogo,
   menu,
   close,
   dietlogo,
+  dietlogoblack,
   diet,
   blockchain,
   arrowUp,
@@ -40,4 +41,7 @@ export {
   saluddigna,
   thezen,
   taglify,
+  instagram,
+  facebook,
+  twitter,
 };

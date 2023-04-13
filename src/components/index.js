@@ -9,6 +9,8 @@ import Stats from "./Stats";
 import Selector from "./Selector";
 import ClientsLogos from "./ClientsLogos";
 import CTA from "./CTA";
+import Login from "./Login";
+import Form from "./Form";
 
 export {
   Navbar,
@@ -22,4 +24,6 @@ export {
   Selector,
   ClientsLogos,
   CTA,
+  Login,
+  Form,
 };

@@ -2,7 +2,7 @@ import { eating } from "../assets";
 
 const Selector = () => (
   <section
-    id='product'
+    id='selector'
     className='flex md:flex-row flex-col-reverse sm:px-16 px-6 pt-7'
   >
     <div className='flex-1 flex justify-center items-center md:mr-10 mr-0 md:mt-0 mt-10 relative'>
@@ -20,7 +20,11 @@ const Selector = () => (
         Toma el control <br className='sm:block hidden' /> de tu alimentacion
       </h2>
       <p className='font-poppins font-normal text-[#E1D9D1] text-[18px] leading-[30.8px] max-w-[470px] mt-5'>
-        Aprovecha el 100% de descuento en nuestro lanzamiento.
+        ¡Nuestro enfoque está centrado en ti! Entendemos que cada persona es
+        única y tiene necesidades nutricionales diferentes. Nuestro equipo de
+        nutricionistas altamente capacitados se asegurará de brindarte un plan
+        de nutrición personalizado que se adapte a tus metas, estilo de vida y
+        preferencias alimenticias.
       </p>
     </div>
   </section>
